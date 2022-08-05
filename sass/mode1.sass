@@ -1,0 +1,45 @@
+#mode1
+	width: 100vw
+	height: 100vh
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+
+#mode1-btns
+	width: 400px
+	height: 100px
+	display: flex
+	justify-content: space-around
+
+#mode1-btns button
+	width: 50px
+	height: 50px
+	font-size: 40px
+	border: none
+	background-color: transparent
+	display: flex
+	justify-content: center
+	align-items: center
+	cursor: pointer
+	transition: .2s ease-in-out
+
+#mode1-btns button:hover
+	font-size: 43px
+
+#mode1-result
+	font-size: 40px
+	text-align: center
+
+#mode1-player-field, #mode1-enemy-field
+	width: 300px
+	height: 200px
+	display: flex
+	justify-content: center
+	align-items: center
+	font-size: 50px
+	transition: .3s ease-in-out
+
+@media screen and (max-width: 600px)
+	#mode1-result
+		font-size: 24px
